@@ -1,0 +1,235 @@
+/*---------------------------------------------*/
+/* Section-2.2 Creating & Linking a CSS Stylesheet*/
+/* External CSS*/
+/*---------------------------------------------*/
+
+
+
+.Class01-ExternalClassSelector {
+	color: rgb(204, 10, 10);
+}
+
+
+
+/*---------------------------------------------*/
+/* Section-3.2 Classes & ID's in HTML*/
+/*---------------------------------------------*/
+
+/* ID Selector*/
+#id01-IdSelector {
+	text-align: left;
+	color: rgb(10, 204, 194);
+}
+
+/* Class Selector*/
+.Class03-ClassSelector {
+	color: rgb(0, 0, 255);
+}
+
+/* Element Selector*/
+h2 {
+	color: rgb(20, 29, 217);
+}
+
+/* Section-2.2 Group Selector*/
+h4, h5 {
+	color: rgb(188, 204, 10);
+}
+
+/*---------------------------------------------*/
+/* Section-3.4 Pseudoselectors */
+/*---------------------------------------------*/
+.Class04-Pseudoselectors {
+	color: rgb(10, 204, 194);
+}
+
+.Class04-Pseudoselectors:hover {
+	text-decoration: line-through;
+	text-decoration: underline;
+	text-shadow: 2px 2px 5px red;
+	font-size: 150%;
+}
+
+.Class05-Pseudoselectors:link {
+	color: rgb(9, 54, 189);
+}
+
+.Class05-Pseudoselectors:visited {
+	color: rgb(219, 20, 20);
+}
+
+/*---------------------------------------------*/
+/* Section-3.5 Advanced Selectors */
+/*---------------------------------------------*/
+ul>li {
+	color: rgb(219, 20, 20);
+}
+
+/*---------------------------------------------*/
+/* Section-4.4 Images/URL's in CSS*/
+/*---------------------------------------------*/
+body {
+	 background-image: url("../images/Background2.jfif");
+	/* background-repeat: no-repeat;*/
+	/* background-position: right top;*/
+	/* position: sticky;*/
+}
+
+#id03-textdocoration {
+	text-decoration: underline;
+}
+
+/*---------------------------------------------*/
+/* Section-5 Font & text manipulation*/
+/*---------------------------------------------*/
+
+/*---------------------------------------------*/
+/*5.1 Introduction to Types of Units*/
+/*---------------------------------------------*/
+table, td {
+	border: 1px solid black;
+	text-align: left;
+}
+
+table {
+	width: 50%; /* % or px*/
+	height: 70px;
+}
+
+th {
+	border: 1px solid black;
+	text-align: left;
+	color: red;
+	background-color: rgba(128, 255, 128, 0.5)
+}
+
+/*---------------------------------------------*/
+/*5.1 5.2 Text Manipulation*/
+/*---------------------------------------------*/
+/*---------------------------------------------*/
+/* 5.2.1 Text decoration */
+/*---------------------------------------------*/
+.overline {
+	text-decoration: overline;
+}
+
+.line-through {
+	text-decoration: line-through;
+}
+
+.underline {
+	text-decoration: underline;
+}
+
+/*---------------------------------------------*/
+/* 5.2.2 Text Transformation */
+/*---------------------------------------------*/
+.uppercase {
+	text-transform: uppercase;
+}
+
+.lowercase {
+	text-transform: lowercase;
+}
+
+.capitalize {
+	text-transform: capitalize;
+}
+/*---------------------------------------------*/
+/* 5.3 & 5.4 Font Size, Bolding, Style, and family. */
+/*---------------------------------------------*/
+.font {
+	font-family: "Times New Roman", Times, serif;
+	font-style: italic;
+	font-weight: bold;
+	font-size: 20px;
+	/* font-weight: 400;  Normaly between 100 to 800*/
+	/* font-size: 1.2em;*/
+	/* font-style: normal; OR oblique to make it more bolded */
+}
+
+/*---------------------------------------------*/
+/* Section-6 Layout */
+/*---------------------------------------------*/
+
+/*---------------------------------------------*/
+/* 6.1 The CSS Box Model */
+/*---------------------------------------------*/
+.CSSBoxModel {
+	background-color: lightblue; /* division element */
+	background-image: url("paper.gif"); /* background image */
+	background-repeat: no-repeat; /* disable repeat */
+	color: Blue;
+	width: 50%;
+	/* border: 15px solid green; */
+	border: 15px double green;
+	 padding: 50px;
+	/*padding-top: 100px;*/
+	   margin: 20px; 
+	/*margin-bottom: 100px;*/
+	/*  float:right; */
+	/* position: sticky;*/
+}
+
+
+/* Header*/
+.header {
+	padding: 20px;
+	text-align: center;
+	background: rgb(0, 100, 0);
+	color: white;
+	font-size: 30px;
+	position: sticky;
+	top: 0;
+}
+
+.pheader {
+	margin: 30px;
+}
+
+/*---------------------------------------------*/
+/* 7. Flexbox */
+/*---------------------------------------------*/
+
+/* 7.2 Creating a Flex Container */
+.flex-container-top {
+	display: flex;
+	flex-wrap: nowrap;
+	background-color: grey;
+	/*justify-content: flex-end;*/
+	position: -webkit-sticky; /* Safari */
+	position: sticky;
+	top: 90px;
+}
+
+.flex-container-top>div {
+	background-color: #f1f1f1;
+	width: 160px;
+	margin: 10px;
+	text-align: center;
+	line-height: 40px;
+	font-size: 20px;
+}
+
+.flex-container-top>div:hover {
+	background-color: rgba(0, 0, 100, 0.3);
+}
+
+/* 7.3 Flex Direction & Wrapr */
+.flex-container-main {
+	display: flex;
+}
+
+.flex-container-main>div {
+	border: 1px #ccc solid;
+	padding: 10px;
+}
+
+.box-left {
+	flex: 1;
+	width: 10px;
+}
+
+.box-right {
+	flex: 1;
+}

@@ -1,0 +1,727 @@
+<!DOCTYPE html>
+<!--The <!DOCTYPE html> declaration defines that this document is an HTML5 document -->
+<!-- -->
+
+<!--The <html> element is the root element of an HTML page -->
+<html>
+
+
+<head>
+<!-- The <head> element contains meta information about the HTML page-->
+<meta charset="ISO-8859-1">
+<title>Test Page</title>
+
+<!--The <head> element contains meta information about the HTML page -->
+</head>
+
+<!--The <body> element defines the document's body, and is a container for all the visible contents, such as headings, paragraphs, images, hyperlinks, tables, lists, etc. -->
+<body>
+
+
+	<!-- The <h> element defines a large heading -->
+	<!-- h2 is a  bookmark. It will be used later by <a> tag -->
+
+
+	<p>-------------------------------------------------------------</p>
+	<h2 id="top">1. Heading</h2>
+	<p>-------------------------------------------------------------</p>
+
+	<h1>This is heading 1</h1>
+	<h2>This is heading 2</h2>
+	<h3>This is heading 3</h3>
+	<h4>This is heading 4</h4>
+	<h5>This is heading 5</h5>
+	<h6>This is heading 6</h6>
+
+	<p>-------------------------------------------------------------</p>
+	<h2>2. Paragraph</h2>
+	<p>-------------------------------------------------------------</p>
+
+	<!-- The <p> element defines a paragraph -->
+	<p>This is a paragraph.</p>
+
+	<p>-------------------------------------------------------------</p>
+	<h2>3. ToolTip</h2>
+	<p>-------------------------------------------------------------</p>
+
+	<!--The title attribute defines some extra information about an element. -->
+	<p title="Test tip">This is a paragraph with tooltip. Mouse
+		over this paragraph, to display the title attribute as a tooltip.</p>
+
+
+
+
+	<p>-------------------------------------------------------------</p>
+	<h2>4. 'a' Tag</h2>
+	<p>-------------------------------------------------------------</p>
+	<p>
+		<i>All HTML elements can have attributes. Attributes provide
+			additional information about elements. Attributes are always
+			specified in the start tag. Attributes usually come in name/value
+			pairs like:name="value"</i>
+	</p>
+	<p>Example: The 'a' tag defines <br>
+	a hyperlink. The href attribute<br>
+		specifies the URL of the page <br>
+		the link goes to.</p>
+
+	<!-- HTML links are defined with the <a> tag: -->
+	<a href="https://www.Google.com"> <br>This is www.Google.com .
+		Absolute URL
+	</a>
+
+	<a href="index.html"><br>This is index.html . Relative URL</a>
+
+
+	<a href="https://www.Google.com/" target="_blank"> <br>This is
+		a link but opens on a new tab/window
+	</a>
+
+	<a href="mailto:someone@example.com"> <br> Send email -a- tag
+		to send email
+	</a>
+
+	<!--First, use the id attribute to create a bookmark: . Then, add a link to the bookmark ("Jump to Chapter 4"), from within the same page: -->
+
+	<a href="#top"> <br>This link make it jump to the top of the
+		page
+	</a>
+
+	<p>-------------------------------------------------------------</p>
+	<h2>5. Line Break</h2>
+	<p>-------------------------------------------------------------</p>
+
+	<!--The <br> tag defines a line break, 
+	and is an empty element without a closing tag:-->
+
+	<br>
+	<p>
+		This is a <br> paragraph with a line break.
+	</p>
+
+	<!--Text Format -->
+	<p>-------------------------------------------------------------</p>
+	<h2>6. Text Format</h2>
+	<p>-------------------------------------------------------------</p>
+
+	<p>
+		This text is not formated. <i>This text is italic. </i><b>This
+			text is bold!</b> <b><i>This text is Italic & Bold.</i></b> This is<sub>
+			subscript</sub> and <sup>superscript</sup>
+	</p>
+
+	<p>
+		The
+		<mark>mark</mark>
+		element.
+	</p>
+
+	<p>
+		My favorite color is
+		<del>blue</del>
+		red.
+	</p>
+
+
+	<p>
+		The q tag defines a short <q>quotation</q> in a paragraph
+	</p>
+
+
+	<p>-------------------------------------------------------------</p>
+	<h2>7. img</h2>
+	<p>-------------------------------------------------------------</p>
+
+	<!--HTML images are defined with the <img> tag. The source file (src), alternative text (alt), width, and height are provided as attributes:-->
+	<!-- -->
+	<img src="../images/img.png" alt="image" width="204px" height="50px">
+	<img src="../images/animatedimage.gif" alt="animatedimage"
+		style="width: 48px; height: 48px;">
+
+	<!--Image as a link-->
+	<a href="https://www.Google.com"> <img src="../images/google.png"
+		alt="https://www.Google.com" style="width: 42px; height: 42px;">
+	</a>
+
+	<br>
+	<br>
+	<p>-------------------------------------------------------------</p>
+	<h2>8. Table</h2>
+	<p>-------------------------------------------------------------</p>
+	<!--table -->
+	<table>
+		<tr>
+			<th>Firstname</th>
+			<th>Lastname</th>
+			<th>Age</th>
+		</tr>
+		<tr>
+			<td>Jill</td>
+			<td>Smith</td>
+			<td>50</td>
+		</tr>
+		<tr>
+			<td>Eve</td>
+			<td>Jackson</td>
+			<td>94</td>
+		</tr>
+		<tr>
+			<td>John</td>
+			<td>Doe</td>
+			<td>80</td>
+		</tr>
+	</table>
+
+	<p>-------------------------------------------------------------</p>
+	<h2>9. An unordered HTML list</h2>
+	<p>-------------------------------------------------------------</p>
+
+
+	<ul>
+		<li>Coffee</li>
+		<li>Tea</li>
+		<li>Milk</li>
+	</ul>
+
+	<ul>
+		<li><a href="#home">Home</a></li>
+		<li><a href="#news">News</a></li>
+		<li><a href="#contact">Contact</a></li>
+		<li><a href="#about">About</a></li>
+	</ul>
+
+	<p>-------------------------------------------------------------</p>
+	<h2>10. ordered HTML list</h2>
+	<p>-------------------------------------------------------------</p>
+	<ol>
+		<li>Coffee</li>
+		<li>Tea</li>
+		<li>Milk</li>
+	</ol>
+
+	<p>-------------------------------------------------------------</p>
+	<h2>11. Description List</h2>
+	<p>-------------------------------------------------------------</p>
+	<!--the <dt> tag defines the term (name), and the <dd> tag describes each term: -->
+
+
+
+	<dl>
+		<dt>Coffee</dt>
+		<dd>- black hot drink</dd>
+		<dt>Milk</dt>
+		<dd>- white cold drink</dd>
+	</dl>
+
+	<p>-------------------------------------------------------------</p>
+	<h2>12. A Nested Lis</h2>
+	<p>-------------------------------------------------------------</p>
+
+	<p>Lists can be nested (list inside list):</p>
+
+	<ul>
+		<li>Coffee</li>
+		<li>Tea
+			<ul>
+				<li>Black tea</li>
+				<li>Green tea</li>
+			</ul>
+		</li>
+		<li>Milk</li>
+	</ul>
+
+	<p>-------------------------------------------------------------</p>
+	<h2>13. Div</h2>
+	<p>-------------------------------------------------------------</p>
+
+
+
+
+
+
+	<div style="border: 5px outset red; background-color: rgb(128, 255, 0);">
+
+		<p>The div (division) element is often used as a container for
+			other HTML elements. The div element has no required attributes, but
+			style, class and id are common. When used together with CSS, the div
+			element can be used to style blocks of content:</p>
+	</div>
+
+	<!-- -->
+
+	<p>-------------------------------------------------------------</p>
+	<h2>14. Iframe - Target for a Link</h2>
+	<p>-------------------------------------------------------------</p>
+
+	<!-- An HTML iframe is used to display a web page within a web page.-->
+
+
+	<iframe src="https://www.google.com" name="iframe_a" height="300px"
+		width="100%" title="Iframe Example"></iframe>
+
+	<p>
+		<a href="https://www.bbc.com" target="iframe_a">BBC.com</a>
+	</p>
+	<p>
+		<a href="https://www.cnn.com" target="iframe_a">CNN.com</a>
+	</p>
+	<p>
+		<a href="index.html" target="iframe_a">index</a>
+	</p>
+
+	<p>-------------------------------------------------------------</p>
+	<h2>15. JavaScript</h2>
+	<p>-------------------------------------------------------------</p>
+
+	<h1>My First JavaScript</h1>
+
+	<p id="demo"></p>
+	<button type="button"
+		onclick="document.getElementById('demo').innerHTML = Date()">
+		Click me to display Date and Time.</button>
+
+	<button type="button" onclick="myFunction()">Click Me to
+		Format</button>
+
+	<p id="demo"></p>
+	<script>
+		function myFunction() {
+			document.getElementById("demo").style.fontSize = "25px";
+			document.getElementById("demo").style.color = "red";
+			document.getElementById("demo").style.backgroundColor = "yellow";
+		}
+	</script>
+
+
+
+	<h1>My Second JavaScript</h1>
+	<p>Here, a JavaScript changes the value of the src (source)
+		attribute of an image.</p>
+
+	<script>
+		function light(sw) {
+			var pic;
+			if (sw == 0) {
+				pic = "../images/pic_bulboff.gif"
+			} else {
+				pic = "../images/pic_bulbon.gif"
+			}
+			document.getElementById('myImage').src = pic;
+		}
+	</script>
+
+	<img id="myImage" src="../images/pic_bulboff.gif" width="100"
+		height="180">
+
+	<p>
+		<button type="button" onclick="light(1)">Light On</button>
+		<button type="button" onclick="light(0)">Light Off</button>
+	</p>
+
+	<br>
+	<br>
+
+	<p>-------------------------------------------------------------</p>
+	<h2>16. Radio Buttons</h2>
+	<p>-------------------------------------------------------------</p>
+
+
+	<form action="/action_page.php">
+		<input type="radio" id="male" name="gender" value="male"> <label
+			for="male">Male</label><br> 
+			<input type="radio" id="female"
+			name="gender" value="female"> <label for="female">Female</label><br>
+		<input type="radio" id="other" name="gender" value="other"> <label
+			for="other">Other</label>
+	</form>
+
+
+	<p>-------------------------------------------------------------</p>
+	<h2>17. Checkboxes</h2>
+	<p>-------------------------------------------------------------</p>
+
+	<p>
+		The <strong>input type="checkbox"</strong> defines a checkbox:
+	</p>
+
+	<form action="/action_page.php">
+		<input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+		<label for="vehicle1"> I have a bike</label><br> <input
+			type="checkbox" id="vehicle2" name="vehicle2" value="Car"> <label
+			for="vehicle2"> I have a car</label><br> <input type="checkbox"
+			id="vehicle3" name="vehicle3" value="Boat"> <label
+			for="vehicle3"> I have a boat</label><br> <br> <input
+			type="submit" value="Submit">
+	</form>
+
+	<p>-------------------------------------------------------------</p>
+	<h2>18. The select Element</h2>
+	<p>-------------------------------------------------------------</p>
+
+
+
+	<p>The select element defines a drop-down list:</p>
+
+	<form action="/action_page.php">
+		<label for="cars">Choose a car:</label> <select id="cars" name="cars">
+			<option value="volvo">Volvo</option>
+			<option value="saab">Saab</option>
+			<option value="fiat">Fiat</option>
+			<option value="audi">Audi</option>
+		</select> <input type="submit">
+	</form>
+
+	<p>-------------------------------------------------------------</p>
+	<h2>19. Allow Multiple Selections</h2>
+	<p>-------------------------------------------------------------</p>
+
+
+
+	<p>Use the multiple attribute to allow the user to select more than
+		one value.</p>
+
+	<form action="/action_page.php">
+		<label for="cars">Choose a car:</label> <select id="cars" name="cars"
+			size="4" multiple>
+			<option value="volvo">Volvo</option>
+			<option value="saab">Saab</option>
+			<option value="fiat">Fiat</option>
+			<option value="audi">Audi</option>
+		</select><br> <br> <input type="submit">
+	</form>
+
+	<p>Hold down the Ctrl (windows) / Command (Mac) button to select
+		multiple options.</p>
+
+
+	<p>-------------------------------------------------------------</p>
+	<h2>20. Textarea</h2>
+	<p>-------------------------------------------------------------</p>
+
+
+	<p>The textarea element defines a multi-line input field.</p>
+
+	<form action="/action_page.php">
+		<textarea name="message" rows="10" cols="30">The cat was playing in the garden.</textarea>
+		<br> <br> <input type="submit">
+	</form>
+
+
+	<p>-------------------------------------------------------------</p>
+	<h2>21. The datalist Element</h2>
+	<p>-------------------------------------------------------------</p>
+
+
+	<p>The datalist element specifies a list of pre-defined options for
+		an input element.</p>
+
+	<form action="/action_page.php">
+		<input list="browsers" name="browser">
+		<datalist id="browsers">
+			<option value="Internet Explorer">
+			<option value="Firefox">
+			<option value="Chrome">
+			<option value="Opera">
+			<option value="Safari">
+		</datalist>
+		<input type="submit">
+	</form>
+
+	<p>-------------------------------------------------------------</p>
+	<h2>22. The output Element</h2>
+	<p>-------------------------------------------------------------</p>
+
+	<p>The output element represents the result of a calculation.</p>
+
+	<form action="/action_page.php"
+		oninput="x.value=parseInt(a.value)+parseInt(b.value)">
+		0 <input type="range" id="a" name="a" value="50"> 100 + <input
+			type="number" id="b" name="b" value="50"> =
+		<output name="x" for="a"></output>
+		<br> <br> <input type="submit">
+	</form>
+
+	<p>-------------------------------------------------------------</p>
+	<h2>23. The method Attribute</h2>
+	<p>-------------------------------------------------------------</p>
+
+
+	<p>This form will be submitted using the POST method:</p>
+
+	<form action="/action_page.php" target="_blank" method="post">
+		<label for="fname">First name:</label><br> <input type="text"
+			id="fname" name="fname" value="John"><br> <label
+			for="lname">Last name:</label><br> <input type="text" id="lname"
+			name="lname" value="Doe"><br> <br> <input
+			type="submit" value="Submit">
+	</form>
+
+	<p>After you submit, notice that, unlike the GET method, the form
+		values is NOT visible in the address bar of the new browser tab.</p>
+
+
+	<p>-------------------------------------------------------------</p>
+	<h2>24. Grouping Form Data with Fieldset</h2>
+	<p>-------------------------------------------------------------</p>
+
+
+	<p>The fieldset element is used to group related data in a form,
+		and the legend element defines a caption for the fieldset element.</p>
+
+	<form action="/action_page.php">
+		<fieldset>
+			<legend>Personalia:</legend>
+			<label for="fname">First name:</label><br> <input type="text"
+				id="fname" name="fname" value="John"><br> <label
+				for="lname">Last name:</label><br> <input type="text"
+				id="lname" name="lname" value="Doe"><br> <br> <input
+				type="submit" value="Submit">
+		</fieldset>
+</form>
+		<p>-------------------------------------------------------------</p>
+		<h2>25. Password field</h2>
+		<p>-------------------------------------------------------------</p>
+
+		<p>
+			The <strong>input type="password"</strong> defines a password field:
+		</p>
+
+		<form action="/action_page.php">
+			<label for="username">Username:</label><br> <input type="text"
+				id="username" name="username"><br> <label for="pwd">Password:</label><br>
+			<input type="password" id="pwd" name="pwd"><br> <br>
+			<input type="submit" value="Submit">
+		</form>
+
+		<p>The characters in a password field are masked (shown as
+			asterisks or circles).</p>
+
+
+		<p>-------------------------------------------------------------</p>
+		<h2>26. Reset Button</h2>
+		<p>-------------------------------------------------------------</p>
+
+
+		<p>
+			The <strong>input type="reset"</strong> defines a reset button that
+			resets all form values to their default values:
+		</p>
+
+		<form action="/action_page.php">
+			<label for="fname">First name:</label><br> <input type="text"
+				id="fname" name="fname" value="John"><br> <label
+				for="lname">Last name:</label><br> <input type="text"
+				id="lname" name="lname" value="Doe"><br> <br> <input
+				type="submit" value="Submit"> <input type="reset">
+		</form>
+
+
+		<p>-------------------------------------------------------------</p>
+		<h2>27. Show a Color Picker</h2>
+		<p>-------------------------------------------------------------</p>
+
+
+		<p>
+			The <strong>input type="color"</strong> is used for input fields that
+			should contain a color.
+		</p>
+
+		<form action="/action_page.php">
+			<label for="favcolor">Select your favorite color:</label> <input
+				type="color" id="favcolor" name="favcolor" value="#ff0000">
+			<input type="submit" value="Submit">
+		</form>
+
+		<p>If you change the input values and then click the "Reset"
+			button, the form-data will be reset to the default values.</p>
+
+		<p>-------------------------------------------------------------</p>
+		<h2>28. Date Field</h2>
+		<p>-------------------------------------------------------------</p>
+
+
+		<p>
+			The <strong>input type="date"</strong> is used for input fields that
+			should contain a date.
+		</p>
+
+
+
+		<form action="/action_page.php">
+_12
+		</form>
+
+		<p>
+			<strong>Note:</strong> type="date" is not supported in Safari or
+			Internet Explorer 11 (or earlier).
+		</p>
+
+
+		<p>-------------------------------------------------------------</p>
+		<h2>29. Email Field</h2>
+		<p>-------------------------------------------------------------</p>
+
+		<p>
+			The <strong>input type="email"</strong> is used for input fields that
+			should contain an e-mail address:
+		</p>
+
+		<form action="/action_page.php">
+			<label for="email">Enter your email:</label> <input type="email"
+				id="email" name="email"> <input type="submit" value="Submit">
+		</form>
+
+		<p>-------------------------------------------------------------</p>
+		<h2>30. Month Field</h2>
+		<p>-------------------------------------------------------------</p>
+
+		<p>
+			The <strong>input type="month"</strong> allows the user to select a
+			month and year.
+		</p>
+
+		<form action="/action_page.php">
+			<label for="bdaymonth">Birthday (month and year):</label> <input
+				type="month" id="bdaymonth" name="bdaymonth"> <input
+				type="submit" value="Submit">
+		</form>
+
+
+		<p>-------------------------------------------------------------</p>
+		<h2>31. Numeric Steps</h2>
+		<p>-------------------------------------------------------------</p>
+
+
+
+		<p>Depending on browser support: Fixed steps will apply in the
+			input field.</p>
+
+		<form action="/action_page.php">
+			<label for="quantity">Quantity:</label> <input type="number"
+				id="quantity" name="quantity" min="0" max="100" step="10" value="30">
+			<input type="submit" value="Submit">
+		</form>
+
+		<p>-------------------------------------------------------------</p>
+		<h2>32. Telephone Field</h2>
+		<p>-------------------------------------------------------------</p>
+
+		<p>
+			The <strong>input type="tel"</strong> is used for input fields that
+			should contain a telephone number:
+		</p>
+
+		<form action="/action_page.php">
+			<label for="phone">Enter a phone number:</label><br> <br> <input
+				type="tel" id="phone" name="phone" placeholder="123-456-7890"
+				pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" required><br> <br>
+			<small>Format: 123-456-7890/small><br> <br> <input
+				type="submit" value="Submit">
+		</form>
+
+
+		<p>-------------------------------------------------------------</p>
+		<h2>33. The input readonly/disable attribute</h2>
+		<p>-------------------------------------------------------------</p>
+
+		<p>The readonly attribute specifies that an input field should be
+			read-only (cannot be changed):</p>
+
+		<form action="/action_page.php">
+			<label for="fname">First name:</label><br> <input type="text"
+				id="fname" name="fname" value="John" readonly><br> <label
+				for="fname">First name:</label><br> <input type="text"
+				id="fname" name="fname" value="John" disabled><br> <label
+				for="lname">Last name:</label><br> <input type="text"
+				id="lname" name="lname" value="Doe"><br> <br> <label
+				for="pin">PIN: takes only4</label><br> <input type="text"
+				id="pin" name="pin" maxlength="5" size="5"><br> <input
+				type="submit" value="Submit">
+		</form>
+
+		<p>-------------------------------------------------------------</p>
+		<h2>34. The input required attribute</h2>
+		<p>-------------------------------------------------------------</p>
+
+
+		<p>The required attribute specifies that an input field must be
+			filled out before submitting the form.</p>
+
+		<form action="/action_page.php">
+			<label for="username">Username:</label> <input type="text"
+				id="username" name="username" required> <input type="submit"
+				value="Submit">
+		</form>
+
+		<p>-------------------------------------------------------------</p>
+		<h2>35. The input pattern attribute</h2>
+		<p>-------------------------------------------------------------</p>
+
+		<p>The pattern attribute specifies a regular expression that the
+			input element's value is checked against.</p>
+
+		<form action="/action_page.php">
+			<label for="country_code">Country code:</label> <input type="text"
+				id="country_code" name="country_code" pattern="[A-Za-z0-9]{5}"
+				title="Three letter country code"><br> <br> <input
+				type="submit" value="Submit">
+		</form>
+
+		<p>-------------------------------------------------------------</p>
+		<h2>36. The input autofocus attribute</h2>
+		<p>-------------------------------------------------------------</p>
+
+
+		<p>The autofocus attribute specifies that the input field should
+			automatically get focus when the page loads.</p>
+
+		<form action="/action_page.php">
+			<label for="fname">First name:</label><br> <input type="text"
+				id="fname" name="fname" autofocus><br> <label
+				for="lname">Last name:</label><br> <input type="text"
+				id="lname" name="lname"><br> <br> <input
+				type="submit" value="Submit">
+		</form>
+
+		<p>-------------------------------------------------------------</p>
+		<h2>37. The input formmethod Attribute</h2>
+		<p>-------------------------------------------------------------</p>
+
+		<p>The formmethod attribute defines the HTTP method for sending
+			form-data to the action URL.</p>
+
+		<form action="/action_page.php" method="get" target="_blank">
+			<label for="fname">First name:</label> <input type="text" id="fname"
+				name="fname"><br> <br> <label for="lname">Last
+				name:</label> <input type="text" id="lname" name="lname"><br> <br>
+			<input type="submit" value="Submit using GET"> <input
+				type="submit" formmethod="post" value="Submit using POST">
+		</form>
+
+		<p>-------------------------------------------------------------</p>
+		<h2>38. File upload</h2>
+		<p>-------------------------------------------------------------</p>
+
+		<p>Show a file-select field which allows a file to be chosen for
+			upload:</p>
+		<form action="/action_page.php">
+			<label for="myfile">Select a file:</label> <input type="file"
+				id="myfile" name="myfile"><br> <br> <input
+				type="submit" value="Submit">
+		</form>
+
+		<p>-------------------------------------------------------------</p>
+		<h2>39. The input multiple attributes</h2>
+		<p>-------------------------------------------------------------</p>
+
+
+		<p>The multiple attribute specifies that the user is allowed to
+			enter more than one value in an input field.</p>
+
+		<form action="/action_page.php">
+			<label for="files">Select files:</label> <input type="file"
+				id="files" name="files" multiple><br> <br> <input
+				type="submit" value="Submit">
+		</form>
+</body>
+</html>
